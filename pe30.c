@@ -1,5 +1,5 @@
 // created by NamanNimmo
-//7:25 pm, April, 2019.
+//7:25 pm, April 8, 2019.
 
 //digit fifth powers PE
 #include <stdio.h>
