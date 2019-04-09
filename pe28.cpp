@@ -9,7 +9,7 @@ using namespace std;
 int main()
 {
     LL sum = 0;
-    long long int p, q;
+    LL p, q;
     for (LL i = 1001;i>1;i= i-2)
     {
         p = i * i; q = i-1;
