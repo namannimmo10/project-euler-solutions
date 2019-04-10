@@ -1,5 +1,5 @@
-#code created by NamanNimmo Gera.
-#12:48 pm, April 10, 2019.
+//code created by NamanNimmo Gera.
+//12:48 pm, April 10, 2019.
 
 #include<bits/stdc++.h>
 using namespace std;
