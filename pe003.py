@@ -2,18 +2,18 @@
 #10:50am, April 11, 2019.
 
 def largestPrime(num):
-    i = 2
-    while num % i != 0:
-        i += 1
+    j = 2
+    while num % j != 0:
+        j += 1
     if num % 2 == 0:
         if num == 2:
             return 2
         else:
             return largestPrime(num/2)
-    elif num / i == 1:
+    elif num / j == 1:
         return num
     else:
-        return largestPrime(num / i)
+        return largestPrime(num / j)
 
 
 x = 600851475143
