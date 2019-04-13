@@ -12,8 +12,10 @@ def isPalindrome(s):
         return True
     return False
 
+i = 1
 tot=0 #this will be our final sum
-for i in range(1,1000000):
+while(i<1000000):
     if isPalindrome(str(i)) and isPalindrome("{0:b}".format(i)):
         tot = tot + i
+    i = i + 2    #even number cannot be a palindrome ;)
 print(tot)        
