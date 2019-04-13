@@ -7,7 +7,7 @@ newlist = []
 for j in range(1,1000): #precomputing the values and appending into a list
     newlist.append((j*(j+1))/2)
 
-tot=0 #this will finally be our final answer below
+tot=0 #this will be our final answer below
 for i in list:
     summ = 0
     for j in i:
