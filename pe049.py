@@ -1,5 +1,5 @@
 #code created by NamanNimmo Gera
-#3:14pm, April 18, 2019.
+#12:28pm, April 19, 2019.
 
 def isPrime(n) :
     if (n <= 1) :
@@ -15,22 +15,11 @@ def isPrime(n) :
         i = i + 6
     return True
 
-def checkPerm(a,b,c):
-    N1 = [int(i) for i in str(a)]
-    N2 = [int(i) for i in str(b)]
-    N3 = [int(i) for i in str(c)]
-    N1.sort()
-    N2.sort()
-    N3.sort()
-    if N1 == N2 == N3:
-        string = ""
-        string = string + str(a) + str(b) + str(c)
-        return string
-
-
 for i in range(1001,3338):
     if isPrime(i) and isPrime(i+3330) and isPrime(i + 2*3330):
-        if checkPerm(i, i+3330, i + 2*3330):
+        if set(list(str(i))) == set(list(str(i+3330))) == set(list(str(i + 2*3330))):
             if i!=1487:
-                print(checkPerm(i, i+3330, i + 2*3330))
+                string = ""
+                string = string + str(i) + str(i+3330)+ str(i + 2*3330)
+                print(string)
                 exit()
