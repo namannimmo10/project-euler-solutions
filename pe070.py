@@ -23,7 +23,7 @@ def checker(n1,n2):
     else:
         return False
 
-def phi(n): 
+def phi(n): #to calculate the number of divisors
     res = n
     i = 0
     while (p[i] * p[i] <= n):  
