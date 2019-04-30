@@ -13,7 +13,7 @@ def isPalindrome(s):
     return False
 
 i = 1
-tot=0 #this will be our final sum
+tot=0 
 while(i<1000000):
     if isPalindrome(str(i)) and isPalindrome("{0:b}".format(i)):
         tot = tot + i
