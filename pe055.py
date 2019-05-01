@@ -10,6 +10,7 @@ def Palindrome(x):
     else:
         return False
 
+#function to check if a number is a Lychrel number or not
 def checkLyr(x):
     tot = 0
     while True:
