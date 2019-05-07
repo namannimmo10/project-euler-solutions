@@ -1,6 +1,8 @@
 #code created by NamanNimmo Gera
 #11:33pm, May 5, 2019.
 
+#Edit : this solution is incomplete!
+
 def compute(n):
     sum_ = 0
     while n:
