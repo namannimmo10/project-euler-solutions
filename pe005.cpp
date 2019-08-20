@@ -26,7 +26,7 @@ int main(){
 
 --------------------------------------------------------------------------------------------
      
-#Also, the solution for problem 5 on projectEuler+ section on hackerrank.
+//Also, the solution for problem 5 on projectEuler+ section on hackerrank.
     
     
 #include<stdio.h>
