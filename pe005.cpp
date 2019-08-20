@@ -23,3 +23,36 @@ int main(){
       }
     return 0;
 }
+
+--------------------------------------------------------------------------------------------
+     
+#Also, the solution for problem 5 on projectEuler+ section on hackerrank.
+    
+    
+#include<stdio.h>
+#define MAX 10000000000
+#define LL long long int
+
+int main(){
+    int t;
+    scanf("%d", &t);
+    while(t--){
+     int n;
+     scanf("%d", &n);
+     LL i,j,flag;
+     for(i=n;i<MAX;i++){
+        flag=1;
+        for(j=1;j<=n;j++){
+            if(i%j != 0){
+                flag=0;
+                break;
+            }
+        }
+        if(flag==1){ 
+            printf("%lld\n",i);
+            break;
+        }
+      }
+    }    
+    return 0;
+}     
