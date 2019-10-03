@@ -6,3 +6,5 @@ Note: please do not misuse these codes, you will only be cheating yourself. This
 If you have solutions in any other languages, please make a pull request!
 
 In case if you are interested, my friend key: 1420084_h3aybpEkjeG0L4KiTdAJ14V5pRwFf4z1
+
+If you're trying to make a pull request on some issue, please make sure that you claim it first. 
