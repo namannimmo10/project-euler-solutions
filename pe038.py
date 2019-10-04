@@ -1,28 +1,20 @@
 def pandigital_multiples():
-	n = int(input("Enter the limit : "))
-	number = int(input("Enter the integer : "))
-	multiples = []
-	strings = ''
-	for i in range(1,n+1):
-		multiples.append(number*i)
-		strings+=str(number*i)
+	answer = 0
 
-	digits = []
-	found=0
-	if len(strings) == 9:
-		for i in range(len(strings)):
-			if strings[i] not in digits and int(strings[i]) in range(1,10):
-				digits.append(strings[i])
-			else:
-				found=1
-	else:
-		print("none found")
-		exit()
+	for i in range(1,10000):
+		strings = ''
 
-	if found == 0:
-		print("Answer : {}".format(strings))
-	else:
-		print("none found")
+		index = 1
+		while len(strings) < 9 :
+			strings += str(i * index)
+			index +=1
+
+			if((len(strings) == 9) and (len(set(strings)) == 9) and ( '0' not in strings)):
+				if int(strings) > answer:
+					answer = int(strings)
+
+	print(answer)
+
 
 if __name__ == "__main__":
 	pandigital_multiples()
