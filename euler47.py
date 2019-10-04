@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[27]:
-
-
 def prime_no_collector(prime, n):
     if n == 1:                       #checking whether n == 1, not appending if it is equal as 1 is not a prime number 
         return prime
@@ -12,10 +6,6 @@ def prime_no_collector(prime, n):
             return prime             #if not prime then returning the array without appending
     return prime.append(n)
         
-
-
-# In[33]:
-
 
 '''
 
@@ -30,18 +20,12 @@ print(prime)
 '''
 
 
-# In[34]:
-
-
 def prime_factors(prime, n):
     factors = []
     for i in prime:
         if n%i == 0:
             factors.append(i)
     return factors
-
-
-# In[38]:
 
 
 '''
@@ -59,9 +43,6 @@ print(prime_factors(prime, 14))
 '''
 
 
-# In[45]:
-
-
 def main():
     prime = []
     answer = 0
@@ -70,10 +51,3 @@ def main():
         if len(prime_factors(prime, i)) == 4 and len(prime_factors(prime, i+1)) == 4 and len(prime_factors(prime, i+2)) == 4 and len(prime_factors(prime, i+3)) == 4:
             return i
 print(main())
-
-
-# In[ ]:
-
-
-
-
