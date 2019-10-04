@@ -17,7 +17,7 @@ for i in range(9, 99):
     for j in range(99, 999):
         s = str(i) + str(j) + str(i * j)
 
-        if len(s) == 9 and set(s) == tokens:
+        if set(s) == tokens:
             results.add(i * j)
 
         elif len(s) > 9:
