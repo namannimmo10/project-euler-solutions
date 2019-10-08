@@ -11,15 +11,7 @@ int main(){
             scanf("%d", &arr[i][j]);
         }
     }
-
-    
-    for(int i = row-1; i >= 90; i--){
-        for(int j = 0; j<=i; j++){
-            printf("%d ", arr[i][j]);
-        }
-        printf("\n");
-    }
-
+   
     for(int i = row-2; i>=0; i--){
         for(int j = 0; j<=i; j++){
             if(arr[i][j]+arr[i+1][j] > arr[i][j] + arr[i+1][j+1])
