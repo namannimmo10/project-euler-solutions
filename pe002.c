@@ -21,4 +21,6 @@ int main() {
 	}
 	
   printf("%u", sum);
+
+  return 0;
 }
