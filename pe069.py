@@ -3,6 +3,19 @@
 
 MAX = 1000001
 p = []
+
+def trailing(n):  
+    bitset_ = bin(n)[2:] 
+    bitset_ = bitset_[::-1] 
+    result = 0
+  
+    for b in range(len(bitset_)): 
+        if bitset_[b] == '0': 
+            result += 1 
+        else: 
+            break
+    return result
+
 def sieve():  
     isPrime = [0] * (MAX + 1);  
     for i in range(2, MAX + 1):  
