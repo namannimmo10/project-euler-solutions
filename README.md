@@ -5,4 +5,3 @@ Note: please do not misuse these codes, you will only be cheating yourself. This
 
 If you have solutions in any other languages, please make a pull request!
 
-*EDIT* - If you're trying to make a pull request on some issue, please make sure that you claim it first. 
