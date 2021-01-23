@@ -4,7 +4,7 @@ import "fmt"
 
 const MAX = 4000000
 
-// Prints the sum of even-valued fibonacci terms under 4 million
+// Returns the sum of even-valued fibonacci terms under 4 million
 func SumEvenFibonacci() int {
 	a := 1
 	b := 2
